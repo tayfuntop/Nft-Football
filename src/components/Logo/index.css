@@ -1,0 +1,9 @@
+.logo {
+    cursor: pointer;
+    width: 122px;
+    transition: 200ms;
+}
+
+.logo:hover {
+    transform: scale(1.05);
+}

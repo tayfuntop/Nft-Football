@@ -1,0 +1,5 @@
+:root {
+    --Shadow-small: "0px 0px 1px rgba(20, 20, 20, 0.04), 0px 0px 8px rgba(20, 20, 20, 0.08)";
+    --Shadow-medium: "0px -3px 8px 2px rgba(20, 20, 20, 0.08)";
+    --Shadow-large: "0px 1px 24px 8px rgba(20, 20, 20, 0.3)";
+}

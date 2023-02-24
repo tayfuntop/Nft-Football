@@ -1,0 +1,24 @@
+@import "../../configs//themes//Colors.css";
+
+.player-card {
+    width: 198px;
+    height: 346px;
+    background-color: var(--White);
+    border-radius: 8px;
+}
+
+.player-card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 15px 0 15px;
+}
+
+.card-details-open {
+    transition: 200ms;
+}
+
+.card-details-open:hover {
+    transform: scale(1.03);
+    cursor: pointer;
+}

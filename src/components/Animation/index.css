@@ -1,0 +1,27 @@
+.ant-modal-content {
+    background-color: rgba(0, 0, 0, .001) !important;
+    box-shadow: none !important;
+}
+
+.ant-modal-body {
+    display: flex;
+    justify-content: center;
+}
+
+.animation-modal {
+    animation: jump 1s ease-in-out infinite;
+    border-radius: 100px;
+    background-color: white;
+}
+
+@keyframes jump {
+    0% {
+        transform: translateY(50px);
+    }
+    50% {
+        transform: translateY(-50px);
+    }
+    100% {
+        transform: translateY(50px);
+    }
+}

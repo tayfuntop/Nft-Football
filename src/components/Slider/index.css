@@ -1,0 +1,42 @@
+@import "../../configs/themes/Colors.css";
+@import "../../configs/themes/BoxShadow.css";
+
+.carousel {
+    position: relative;
+}
+
+.carousel-pagination {
+    display: flex;
+    position: absolute;
+    z-index: 2;
+    align-items: center;
+}
+
+.carousel-dots {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: var(--White);
+    box-shadow: var(--Shadow-large);
+    cursor: pointer;
+    margin: 2px;
+    transition: 200ms;
+}
+
+.carousel-dots.active-dot {
+    background-color: var(--Red-base);
+}
+
+.carousel-dots:hover {
+    transform: scale(1.2);
+}
+
+.carousel-direction {
+    cursor: pointer;
+    transition: 200ms;
+}
+
+.carousel-direction:hover {
+    transform: scale(1.12);
+}
+

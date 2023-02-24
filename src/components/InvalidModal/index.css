@@ -1,0 +1,17 @@
+@import "../../configs/themes/Colors.css";
+
+.invalid-modal {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    width: 399px;
+    height: 184px;
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px 20px;
+}
+
+.text {
+    margin-top: 20px;
+}

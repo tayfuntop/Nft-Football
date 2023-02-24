@@ -1,0 +1,22 @@
+@import "../../configs/themes/Colors.css";
+
+.trade-modal {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    height: 239px;
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px 20px 30px 20px;
+}
+
+.price {
+    color: var(--Red-base);
+}
+
+.container-button {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}

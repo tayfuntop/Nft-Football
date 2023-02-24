@@ -1,0 +1,19 @@
+.ant-notification-notice-description {
+    font-family: 'Source Sans Pro' !important;
+    font-style: normal !important;  
+    font-weight: 700 !important;
+    font-size: 12px !important;
+    line-height: 12px !important;
+}
+
+.ant-notification-notice-message {
+    font-family: 'Source Sans Pro' !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    font-size: 18px !important;
+    line-height: 24px !important;
+}
+
+.ant-notification-notice {
+    width: 280px !important;
+}

@@ -1,0 +1,30 @@
+.budget {
+    display: flex;
+    width: 179px;
+    height: 48px;
+    border-radius: 8px;
+    background-color: var(--Ink-dark);
+    align-items: center;
+}
+
+.price-case {
+    color: var(--White);
+    margin: 0 21px;
+}
+
+.wallet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 48px;
+    height: 48px;
+    background-color: var(--Red-base);
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    padding: 5px;
+}
+
+.ant-spin-dot-item {
+    background-color: var(--Red-base) !important;
+}
+

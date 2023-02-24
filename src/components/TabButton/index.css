@@ -1,0 +1,28 @@
+@import "../../configs/themes/Colors.css";
+
+.nav-bar {
+    /* display: flex; */
+}
+
+.nav-menu {
+    display: flex;
+    gap: 50px;
+}
+
+.nav-item {
+    height: 30px;
+    cursor: pointer;
+}
+
+.nav-item a {
+    padding-bottom: 5px;
+    position: relative;
+    width: 77px;
+}
+
+.nav-item .active span {
+    position: absolute;
+    top: 23px;
+    border-bottom: 4px solid var(--Red-base);
+    height: 4px;
+}

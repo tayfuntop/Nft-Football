@@ -1,0 +1,129 @@
+@import "../../configs//themes/Colors.css";
+
+.ant-modal-body {
+    display: inline !important;
+}
+
+.player-details {
+    border-radius: 8px;
+    background-color: var(--White);
+}
+
+.player-details-header {
+    height: 382px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.player-details-header.gold {
+    background: linear-gradient(180deg, #A3873C 0%, #E3D294 100%);
+}
+
+.player-details-header.silver {
+    background: linear-gradient(180deg, #808080 0%, #DFDFDF 100%);
+}
+
+.player-details-header.bronze {
+    background: linear-gradient(180deg, #9C6D3E 0%, #E8C8A9 100%);
+}
+
+.player-details-header-button {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+}
+
+.player-img {
+    height: 286px;
+}
+
+.player-details-container {
+    height: 478px;
+    display: flex;
+    flex-direction: column;
+}
+
+.player-details-top-content {
+    display: flex;
+    justify-content: space-between;
+    margin: 24px;
+    align-items: center;
+}
+
+.player-details-top-content-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.player-detailts-content-left-name {
+    color: var(--Red-base);
+}
+
+.player-details-top-content-right {
+    display: flex;
+    width: 421px;
+    height: 96px;
+    padding: 24px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--Sky-lighter);
+    border-radius: 8px;
+}
+
+.player-details-content {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--Sky-lighter);
+    border-radius: 8px;
+    margin: 0 24px;
+    padding: 24px;
+}
+
+.player-details-content-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.player-details-content-list-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 118px;
+    height: 96px;
+    margin-top: 16px;
+    padding: 16px;
+    border-radius: 8px;
+    background-color: var(--White);
+}
+
+.attributes-percent {
+    color: var(--Sky-dark);
+}
+
+.player-details-footer {
+    display: flex;
+    margin: 24px;
+    justify-content: space-between;
+}
+
+.player-details-footer-content {
+    width: 421px;
+    height: 96px;
+    background-color: var(--Sky-lighter);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+}
+
+.ant-modal-close {
+    display: none !important;
+}
+
+.ant-modal-content {
+    padding: 0 !important;
+}

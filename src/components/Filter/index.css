@@ -1,0 +1,82 @@
+@import "../../configs//themes/Colors.css";
+
+.filter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 199px;
+    max-height: 400px;
+    border-radius: 8px;
+    background-color: var(--White);
+    padding: 10px 0 10px 0;
+}
+
+.filter-category {
+    width: 150px;
+    padding: 15px 0 7.5px 0;
+}
+
+.bottom-solid {
+    border-bottom: 1px solid var(--Sky-light);
+}
+
+.filter-title {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    padding-bottom: 7.5px;
+    transition: 200ms;
+}
+
+.filter-title:hover {
+    transform: scale(1.01);
+}
+
+.filter-content {
+    color: var(--Ink-light);
+    cursor: pointer;
+    transition: 200ms;
+}
+
+.filter-content:hover {
+    transform: scale(1.01);
+}
+
+.filter-content.active {
+    color: var(--Red-base);
+}
+
+.price-infos {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+    margin-bottom: -7px;
+}
+
+.price {
+    color: var(--Red-base);
+}
+
+.ant-slider-handle::after {
+    box-shadow: 0 0 0 2px #E8282B !important;
+    width: 8px !important;
+    height: 8px !important;
+}
+
+.ant-slider-handle:focus::after {
+    box-shadow: 0 0 0 2px #E8282B !important;
+    inset-inline-start: 0px !important;
+    inset-block-start: 0px !important;
+    transform: scale(1.1);
+}
+
+.ant-slider-handle:hover::after {
+    box-shadow: 0 0 0 2px #E8282B !important;
+    inset-inline-start: 0px !important;
+    inset-block-start: 0px !important;
+}
+
+.hidden {
+    padding: 7.5px 0;
+}

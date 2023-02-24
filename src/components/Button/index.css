@@ -1,0 +1,66 @@
+@import "../../configs/themes/Colors.css"; 
+
+.fill-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--Red-base);
+    color: var(--White);
+    min-width: 174px;
+    height: 48px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 200ms;
+}
+.fill-button:hover {
+    transform: scale(1.01);
+}
+
+.thin-button {
+    width: 91px;
+    height: 32px;
+    border: 1px solid var(--Red-base);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--Red-base);
+    cursor: pointer;
+    transition: 200ms;
+}
+
+.thin-button:hover {
+    transform: scale(1.03);
+}
+
+.exit-button {
+    width: 48px;
+    height: 48px;
+    border-radius: 8px;
+    background-color: var(--Ink-darkest);
+    opacity: 0.3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 200ms;
+}
+
+.exit-button:hover {
+    transform: scale(1.04);
+}
+
+.empty-button {
+    width: 46px;
+    height: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--Red-base);
+    cursor: pointer;
+    transition: 200ms;
+}
+
+.empty-button:hover {
+    transform: scale(1.07);
+}

@@ -1,0 +1,38 @@
+@import "../../configs/themes/Colors.css";
+
+.pagination {
+    display: flex;
+    justify-content: center;
+}
+
+.pagination-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32px;
+    height: 32px;
+    border-radius: 32px;
+    background-color: var(--Sky-base);
+    color: var(--White);
+    margin: 3px;
+    cursor: pointer;
+    transition: 200ms;
+}
+
+.pagination-button:hover {
+    transform: scale(1.05);
+}
+
+.pagination-button.active {
+    background-color: var(--Red-base);
+}
+
+.arrow-right {
+    cursor: pointer;
+    transition: 200ms;
+    margin-left: 10px;
+}
+
+.arrow-right:hover {
+    transform: scale(1.15);
+}

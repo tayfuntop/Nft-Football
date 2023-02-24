@@ -1,0 +1,19 @@
+:root {
+    --Ink-lighter: #72777A;
+    --Ink-light: #6C7072;
+    --Ink-base: #404446;
+    --Ink-dark: #303437;
+    --Ink-darker: #222222;
+    --Ink-darkest: #000000;
+    --Sky-lightest: #F7F9FA;
+    --Sky-lighter: #F2F4F5;
+    --Sky-light: #E3E5E5;
+    --Sky-base: #CDCFD0;
+    --Sky-dark: #979C9E;
+    --Red-lightest: #FFE5E5;
+    --Red-lighter: #FF9898;
+    --Red-light: #F94739;
+    --Red-base: #E8282B;
+    --Red-darkest: #6B0206;
+    --White: #FFFFFF;
+}
