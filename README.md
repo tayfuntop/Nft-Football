@@ -1,12 +1,12 @@
 # NFT FOOTBALL
 
-## 🎥 Project video
-
-https://user-images.githubusercontent.com/100048051/215445757-c406fda0-6255-4b58-9fd7-8caa3e7c578c.mp4
-
 ## 📷 Project Image
 
 ![Proje Görseli](/src/assets/project/vole-task-image.jpg)
+
+## 🎥 Project video
+
+https://user-images.githubusercontent.com/100048051/215445757-c406fda0-6255-4b58-9fd7-8caa3e7c578c.mp4
 
 ## 🛠  Technologies and tools
 
