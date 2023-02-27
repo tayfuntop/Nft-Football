@@ -1,13 +1,5 @@
 # NFT FOOTBALL
 
-## 📷 Project Image
-
-![Proje Görseli](/src/assets/project/vole-task-image.jpg)
-
-## 🎥 Project video
-
-https://user-images.githubusercontent.com/100048051/215445757-c406fda0-6255-4b58-9fd7-8caa3e7c578c.mp4
-
 ## 🛠  Technologies and tools
 
 <p><img src="https://img.shields.io/badge/React-282C34?logo=react&logoColor=61DAFB" alt="React logo" title="React" height="25" />
@@ -40,3 +32,10 @@ These instructions will get a copy of the project up and
 running on your local machine for development and testing purposes.
 ```
 
+## 📷 Project Image
+
+![Proje Görseli](/src/assets/project/vole-task-image.jpg)
+
+## 🎥 Project video
+
+https://user-images.githubusercontent.com/100048051/215445757-c406fda0-6255-4b58-9fd7-8caa3e7c578c.mp4
